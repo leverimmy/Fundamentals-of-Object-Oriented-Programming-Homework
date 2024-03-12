@@ -4,7 +4,7 @@
 
 ### 最大公约数的求法
 
-设 $x = qy + p$，其中 x \ge y, y > p$，现在证明
+设 $x = qy + p$，其中 $x \ge y, y > p$，现在证明
 $$
 \mathop{\text{gcd}}(x, y) = \mathop{\text{gcd}}(y, p).
 $$
