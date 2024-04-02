@@ -54,7 +54,7 @@ $$
 g++ CP_GCDLCM.h CP_GCDLCM.cpp CP_GCDLCMMain.cpp -o CP_GCDLCMMain.exe
 ```
 
-即可编译得到可执行文件 `CP_GCDLCM.exe`。运行该可执行文件，输入
+即可编译得到可执行文件 `CP_GCDLCMMain.exe`。运行该可执行文件，输入
 
 ```
 10 4

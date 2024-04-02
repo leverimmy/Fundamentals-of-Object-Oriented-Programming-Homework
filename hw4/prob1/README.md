@@ -44,7 +44,7 @@
 g++ CP_Date.h CP_Date.cpp CP_DateMain.cpp -o CP_DateMain.exe
 ```
 
-即可编译得到可执行文件 `CP_Date.exe`。运行该可执行文件，输入
+即可编译得到可执行文件 `CP_DateMain.exe`。运行该可执行文件，输入
 
 ```
 10
