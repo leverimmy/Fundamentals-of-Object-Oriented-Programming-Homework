@@ -28,7 +28,7 @@
 
 在 `hw1/prob1/CharFace/` 目录下，执行
 
-```cmd
+```
 g++ CP_CharFace.h CP_CharFace.cpp CP_CharFaceMain.cpp -o CP_CharFaceMain.exe
 ```
 

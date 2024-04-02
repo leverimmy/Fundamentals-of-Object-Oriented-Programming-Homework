@@ -55,7 +55,7 @@ $$
 
 在 `hw3/prob1/Shape/` 目录下，执行
 
-```cmd
+```
 g++ CP_Shape.h CP_Shape.cpp CP_ShapeMain.cpp -o CP_ShapeMain.exe
 ```
 

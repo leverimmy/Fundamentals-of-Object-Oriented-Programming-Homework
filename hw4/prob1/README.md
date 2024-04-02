@@ -1,5 +1,7 @@
 # 第 4 次作业: 第 1 题
 
+> Warning: 代码有误：没有处理 $\Delta d < 0$ 的情况。
+
 ## 模型部分
 
 假设 $y$ 年 $m$ 月 $d$ 日，加上了 $\Delta d$ 天。则考虑新的日为 $d' = d + \Delta d$​：
@@ -38,7 +40,7 @@
 
 在 `hw4/prob1/Date/` 目录下，执行
 
-```cmd
+```
 g++ CP_Date.h CP_Date.cpp CP_DateMain.cpp -o CP_DateMain.exe
 ```
 

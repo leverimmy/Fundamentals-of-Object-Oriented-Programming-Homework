@@ -47,7 +47,7 @@ assert(--t4 == CP_Complex(0, 2));
 
 在 `hw5/prob1/Complex/` 目录下，执行
 
-```cmd
+```
 g++ CP_Complex.h CP_Complex.cpp CP_ComplexMain.cpp -o CP_ComplexMain.exe
 ```
 

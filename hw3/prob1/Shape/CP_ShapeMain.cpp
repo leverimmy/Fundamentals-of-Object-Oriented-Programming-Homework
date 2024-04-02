@@ -3,7 +3,7 @@
 using namespace std;
 #include "CP_Shape.h"
 
-int main (int argc, char* args[]) {
+int main(int argc, char* args[]) {
     
     int opt;
     int sum_num = 0;

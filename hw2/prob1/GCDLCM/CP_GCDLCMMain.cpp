@@ -3,7 +3,7 @@
 using namespace std;
 #include "CP_GCDLCM.h"
 
-int main (int argc, char* args[]) {
+int main(int argc, char* args[]) {
     CP_GCDLCM solver;
     int x, y;
     cin >> x >> y;

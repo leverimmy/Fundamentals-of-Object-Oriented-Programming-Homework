@@ -3,7 +3,7 @@
 using namespace std;
 #include "CP_Date.h"
 
-int main (int argc, char* args[]) {
+int main(int argc, char* args[]) {
     
     CP_Date currentDate = CP_Date(2024, 3, 19);
 

@@ -3,7 +3,7 @@
 using namespace std;
 #include "CP_Complex.h"
 
-int main (int argc, char* args[]) {
+int main(int argc, char* args[]) {
 
     CP_Complex a, b, c, d;
     cin >> a >> b >> c >> d;

@@ -50,7 +50,7 @@ $$
 
 在 `hw2/prob1/GCDLCM/` 目录下，执行
 
-```cmd
+```
 g++ CP_GCDLCM.h CP_GCDLCM.cpp CP_GCDLCMMain.cpp -o CP_GCDLCMMain.exe
 ```
 
