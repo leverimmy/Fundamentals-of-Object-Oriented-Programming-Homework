@@ -99,4 +99,4 @@ g++ .\CP_Student.h .\CP_StudentManagementSystem.cpp .\CP_StudentManagementSystem
 g++ CP_Student.h CP_StudentManagementSystem.h CP_StudentManagementSystem.cpp CP_StudentManagementSystemMain.cpp -o CP_StudentManagementSystemMain.exe
 ```
 
-即可编译得到可执行文件 `CP_StudentManagementSystem.exe`。运行该可执行文件后按照提示进行输入。
+即可编译得到可执行文件 `CP_StudentManagementSystemMain.exe`。运行该可执行文件后按照提示进行输入。
