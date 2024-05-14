@@ -1,3 +1,6 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
 #ifndef CP_SHAPE_H
 #define CP_SHAPE_H
 

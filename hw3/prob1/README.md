@@ -56,7 +56,7 @@ $$
 在 `hw3/prob1/Shape/` 目录下，执行
 
 ```
-g++ CP_Shape.h CP_Shape.cpp CP_ShapeMain.cpp -o CP_ShapeMain.exe
+g++ CP_Shape.cpp CP_ShapeMain.cpp -o CP_ShapeMain.exe
 ```
 
 即可编译得到可执行文件 `CP_ShapeMain.exe`。运行该可执行文件，输入（`^Z` 表示键盘组合 `Ctrl+Z`）

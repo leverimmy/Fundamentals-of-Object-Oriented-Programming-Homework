@@ -41,7 +41,7 @@
 在 `hw4/prob1/Date/` 目录下，执行
 
 ```
-g++ CP_Date.h CP_Date.cpp CP_DateMain.cpp -o CP_DateMain.exe
+g++ CP_Date.cpp CP_DateMain.cpp -o CP_DateMain.exe
 ```
 
 即可编译得到可执行文件 `CP_DateMain.exe`。运行该可执行文件，输入

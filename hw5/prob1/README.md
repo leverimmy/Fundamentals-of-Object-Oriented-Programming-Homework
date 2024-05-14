@@ -48,7 +48,7 @@ assert(--t4 == CP_Complex(0, 2));
 在 `hw5/prob1/Complex/` 目录下，执行
 
 ```
-g++ CP_Complex.h CP_Complex.cpp CP_ComplexMain.cpp -o CP_ComplexMain.exe
+g++ CP_Complex.cpp CP_ComplexMain.cpp -o CP_ComplexMain.exe
 ```
 
 即可编译得到可执行文件 `CP_ComplexMain.exe`。运行该可执行文件，输入

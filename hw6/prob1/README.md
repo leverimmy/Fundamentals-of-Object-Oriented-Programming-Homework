@@ -86,7 +86,7 @@ All tests passed!
 在 `hw6/prob1/StudentManagementSystem/` 目录下，执行
 
 ```
-g++ .\CP_Student.h .\CP_StudentManagementSystem.cpp .\CP_StudentManagementSystem.h .\CP_StudentManagementSystemTest.cpp -o .\CP_StudentManagementSystemTest.exe
+g++ CP_StudentManagementSystem.cpp CP_StudentManagementSystemTest.cpp -o CP_StudentManagementSystemTest.exe
 ```
 
 即可编译得到可执行文件 `CP_StudentManagementSystemTest.exe`。运行该可执行文件进行测试。
@@ -96,7 +96,7 @@ g++ .\CP_Student.h .\CP_StudentManagementSystem.cpp .\CP_StudentManagementSystem
 在 `hw6/prob1/StudentManagementSystem/` 目录下，执行
 
 ```
-g++ CP_Student.h CP_StudentManagementSystem.h CP_StudentManagementSystem.cpp CP_StudentManagementSystemMain.cpp -o CP_StudentManagementSystemMain.exe
+g++ CP_StudentManagementSystem.cpp CP_StudentManagementSystemMain.cpp -o CP_StudentManagementSystemMain.exe
 ```
 
 即可编译得到可执行文件 `CP_StudentManagementSystemMain.exe`。运行该可执行文件后按照提示进行输入。

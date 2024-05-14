@@ -76,7 +76,7 @@ All tests passed!
 在 `hw10/prob1/BigInt/` 目录下，执行
 
 ```
-g++ CP_BigInt.h CP_BigInt.cpp CP_BigIntTest.cpp -o CP_BigIntTest.exe
+g++ CP_BigInt.cpp CP_BigIntTest.cpp -o CP_BigIntTest.exe
 ```
 
 即可编译得到可执行文件 `CP_BigIntTest.exe`。运行该可执行文件进行测试。
@@ -86,7 +86,7 @@ g++ CP_BigInt.h CP_BigInt.cpp CP_BigIntTest.cpp -o CP_BigIntTest.exe
 在 `hw10/prob1/BigInt/` 目录下，执行
 
 ```
-g++ CP_BigInt.h CP_BigInt.cpp CP_BigIntMain.cpp -o CP_BigIntMain.exe
+g++ CP_BigInt.cpp CP_BigIntMain.cpp -o CP_BigIntMain.exe
 ```
 
 即可编译得到可执行文件 `CP_BigIntMain.exe`。运行该可执行文件后按照以下格式进行输入：

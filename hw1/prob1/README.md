@@ -29,7 +29,7 @@
 在 `hw1/prob1/CharFace/` 目录下，执行
 
 ```
-g++ CP_CharFace.h CP_CharFace.cpp CP_CharFaceMain.cpp -o CP_CharFaceMain.exe
+g++ CP_CharFace.cpp CP_CharFaceMain.cpp -o CP_CharFaceMain.exe
 ```
 
 即可编译得到可执行文件 `CP_CharFaceMain.exe`。运行该可执行文件即可得到满足作业要求的输出。

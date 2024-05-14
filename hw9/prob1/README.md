@@ -81,7 +81,7 @@ g++ CP_Sort.h CP_Sort.cpp CP_SortTest.cpp -o CP_SortTest.exe
 在 `hw9/prob1/Sort/` 目录下，执行
 
 ```
-g++ CP_Sort.h CP_Sort.cpp CP_SortMain.cpp -o CP_SortMain.exe
+g++ CP_Sort.cpp CP_SortMain.cpp -o CP_SortMain.exe
 ```
 
 即可编译得到可执行文件 `CP_SortMain.exe`。运行该可执行文件后按照以下格式进行输入：

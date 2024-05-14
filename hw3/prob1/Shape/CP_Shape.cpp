@@ -1,6 +1,3 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
 #include "CP_Shape.h"
 
 CP_Triangle::CP_Triangle(double side_length) {
