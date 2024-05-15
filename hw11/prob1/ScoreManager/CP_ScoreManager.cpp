@@ -62,18 +62,31 @@ void CP_ScoreManager::modifyScore(int studentId, int newScore) {
 }
 
 // 输出学号对应的成绩
-void CP_ScoreManager::outputScore(int studentId) const {
+string CP_ScoreManager::outputScore(int studentId) const {
+    stringstream ss;
     if (m_scoreSheet.count(studentId) > 0) {
-        cout << "Score for student ID " << studentId << " is " << m_scoreSheet.at(studentId) << "." << endl;
+        ss << "Score for student ID " << studentId << " is " << m_scoreSheet.at(studentId) << "." << endl;
     } else {
-        cout << "Student ID " << studentId << " not found in the current score sheet." << endl;
+        ss << "Student ID " << studentId << " not found in the current score sheet." << endl;
     }
+    return ss.str();
 }
 
 // 显示所有学号及其对应的成绩
-void CP_ScoreManager::displayAllScores() const {
-    cout << "Current score sheet:" << endl;
+string CP_ScoreManager::displayAllScores() const {
+    stringstream ss;
+    ss << "Current score sheet:" << endl;
     for (const auto& entry : m_scoreSheet) {
-        cout << "Student ID:\t" << entry.first << "\t Score:\t" << entry.second << endl;
+        ss << "Student ID:\t" << entry.first << "\tScore:\t" << entry.second << endl;
     }
+    return ss.str();
+}
+
+// 返回当前成绩表单的字符串表示
+string CP_ScoreManager::toString() const {
+    stringstream ss;
+    for (const auto& entry : m_scoreSheet) {
+        ss << entry.first << " " << entry.second << endl;
+    }
+    return ss.str();
 }

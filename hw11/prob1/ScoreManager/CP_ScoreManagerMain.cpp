@@ -58,10 +58,10 @@ int main() {
             case 6:
                 cout << "Enter student ID: ";
                 cin >> studentId;
-                score_manager.outputScore(studentId);
+                cout << score_manager.outputScore(studentId);
                 break;
             case 7:
-                score_manager.displayAllScores();
+                cout << score_manager.displayAllScores();
                 break;
             case 8:
                 cout << "Enter filename: ";

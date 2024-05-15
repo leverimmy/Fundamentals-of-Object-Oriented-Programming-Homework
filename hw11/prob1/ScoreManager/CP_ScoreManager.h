@@ -1,7 +1,8 @@
-#include <iostream>
 #include <fstream>
-#include <sstream>
+#include <iostream>
 #include <map>
+#include <sstream>
+#include <string>
 using namespace std;
 #ifndef CP_SCOREMANAGER_H
 #define CP_SCOREMANAGER_H
@@ -16,8 +17,9 @@ public:
     void removeScore(int studentId);
     void removeAllScores();
     void modifyScore(int studentId, int newScore);
-    void outputScore(int studentId) const;
-    void displayAllScores() const;
+    string outputScore(int studentId) const;
+    string displayAllScores() const;
+    string toString() const;
 private:
     ScoreSheet m_scoreSheet;
 };

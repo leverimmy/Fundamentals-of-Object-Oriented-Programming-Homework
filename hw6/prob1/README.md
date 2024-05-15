@@ -6,11 +6,11 @@
 
 为了确保 `CP_StudentManagementSystem` 类的各种功能正常工作，我们进行了以下测试：
 
-1. **添加学生信息：** 使用 `addStudent` 方法添加学生信息，并检查学生信息是否正确添加。
-2. **获取学生信息：** 使用 `getAllStudents` 和 `getStudentScore` 方法获取所有学生信息以及指定学生的分数，并检查是否正确获取。
-3. **删除学生信息：** 使用 `deleteStudentById` 和 `deleteStudentByScore` 方法删除指定学生，并检查是否删除成功。
-4. **获取指定分数的学生ID：** 使用 `getStudentIdByScore` 方法获取指定分数的学生ID，并检查是否正确获取。
-5. **清空所有学生信息：** 使用 `clearAllStudents` 方法清空所有学生信息，并检查是否成功清空。
+1. **添加学生信息**：使用 `addStudent` 方法添加学生信息，并检查学生信息是否正确添加。
+2. **获取学生信息**：使用 `getAllStudents` 和 `getStudentScore` 方法获取所有学生信息以及指定学生的分数，并检查是否正确获取。
+3. **删除学生信息**：使用 `deleteStudentById` 和 `deleteStudentByScore` 方法删除指定学生，并检查是否删除成功。
+4. **获取指定分数的学生ID**：使用 `getStudentIdByScore` 方法获取指定分数的学生ID，并检查是否正确获取。
+5. **清空所有学生信息**：使用 `clearAllStudents` 方法清空所有学生信息，并检查是否成功清空。
 
 ### 测试展开
 
