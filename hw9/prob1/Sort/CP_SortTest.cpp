@@ -37,6 +37,7 @@ int main() {
     vector<int> sorted_deduplicated_empty_vector = sorter3.get();
     assert(sorted_deduplicated_empty_vector.empty());
 
+    // All tests passed
     cout << "All tests passed!" << endl;
     return 0;
 }

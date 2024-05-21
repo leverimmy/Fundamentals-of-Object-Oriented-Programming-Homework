@@ -46,6 +46,7 @@ int main(int argc, char* args[]) {
     my_system.clearAllStudents();
     assert(my_system.getAllStudents().empty()); // Student list should be empty
 
+    // All tests passed
     cout << "All tests passed!" << endl;
     return 0;
 }
