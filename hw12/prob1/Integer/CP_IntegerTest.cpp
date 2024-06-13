@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cassert>
+using namespace std;
 #include "CP_Integer.h"
 
 int main() {
