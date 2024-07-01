@@ -1,6 +1,6 @@
-# Fundamentals-of-Object-Oriented-Programming-Labs
+# Fundamentals-of-Object-Oriented-Programming-Homework
 
-Repository for the codes of labs of Fundamentals of Object-Oriented Programming, 2024 Spring
+Repository for the codes of homework of Fundamentals of Object-Oriented Programming, 2024 Spring
 
 |     作业     |                           作业内容                           |
 | :----------: | :----------------------------------------------------------: |
